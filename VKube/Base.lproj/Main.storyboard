@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <scenes>
+        <!--Splash View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="SplashViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="j3Z-Ig-GzC">
+                                <rect key="frame" x="221" y="276" width="159" height="48"/>
+                            </imageView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mh9-eV-hj8">
+                                <rect key="frame" x="176" y="376" width="248" height="42"/>
+                                <state key="normal" image="fb_login.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u2U-ZR-nHF">
+                                <rect key="frame" x="176" y="426" width="248" height="42"/>
+                                <state key="normal" image="vk_login.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="man.png" translatesAutoresizingMaskIntoConstraints="NO" id="WPo-cx-iud">
+                                <rect key="frame" x="270" y="262" width="60" height="75"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.15294117647058825" green="0.2196078431372549" blue="0.28235294117647058" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="u2U-ZR-nHF" secondAttribute="centerX" id="2hw-d5-VhD"/>
+                            <constraint firstAttribute="centerX" secondItem="mh9-eV-hj8" secondAttribute="centerX" id="AIT-5o-KZI"/>
+                            <constraint firstAttribute="centerY" secondItem="mh9-eV-hj8" secondAttribute="centerY" constant="-97" id="Ed4-oj-WFI"/>
+                            <constraint firstAttribute="centerX" secondItem="WPo-cx-iud" secondAttribute="centerX" id="Pe5-XF-zEw"/>
+                            <constraint firstAttribute="centerY" secondItem="u2U-ZR-nHF" secondAttribute="centerY" constant="-147" id="RFE-bO-uI9"/>
+                            <constraint firstAttribute="centerY" secondItem="j3Z-Ig-GzC" secondAttribute="centerY" id="gBf-4g-N6J"/>
+                            <constraint firstAttribute="centerX" secondItem="j3Z-Ig-GzC" secondAttribute="centerX" id="mQL-tT-aMs"/>
+                            <constraint firstAttribute="centerY" secondItem="WPo-cx-iud" secondAttribute="centerY" constant="0.5" id="wnx-t0-oSU"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="fbLogin" destination="mh9-eV-hj8" id="QRo-PQ-uHs"/>
+                        <outlet property="logo" destination="j3Z-Ig-GzC" id="Epi-wp-vrs"/>
+                        <outlet property="man" destination="WPo-cx-iud" id="u3z-jI-vXd"/>
+                        <outlet property="vkLogin" destination="u2U-ZR-nHF" id="hDY-A8-8CB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="fb_login.png" width="248" height="42"/>
+        <image name="logo.png" width="159" height="48"/>
+        <image name="man.png" width="60" height="75"/>
+        <image name="vk_login.png" width="248" height="42"/>
+    </resources>
+</document>
