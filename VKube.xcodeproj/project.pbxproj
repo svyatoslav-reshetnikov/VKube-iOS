@@ -234,7 +234,6 @@
 				TargetAttributes = {
 					E1C35F461ACD6C1E0032B52B = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = 8JY2ZC88K5;
 					};
 					E1C35F5F1ACD6C1E0032B52B = {
 						CreatedOnToolsVersion = 6.2;
@@ -456,10 +455,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = VKube/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "aabc97b4-75f5-4ac9-b796-67a2560861a4";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -468,13 +467,13 @@
 			baseConfigurationReference = 45C4D4A102B619D304F1BD92 /* Pods-VKube.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Svyatoslav Reshetnikov (8JY2ZC88K5)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Svyatoslav Reshetnikov (8JY2ZC88K5)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				INFOPLIST_FILE = VKube/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "aabc97b4-75f5-4ac9-b796-67a2560861a4";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

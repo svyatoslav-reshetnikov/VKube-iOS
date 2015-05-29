@@ -9,6 +9,9 @@ pod 'AFNetworking', "~> 2.0"
 pod 'FastEasyMapping'
 pod 'SDWebImage', "~> 3.6"
 pod 'MMDrawerController', '~> 0.5.7'
+pod 'FBSDKCoreKit' 
+pod 'FBSDKLoginKit'
+pod "VK-ios-sdk"
 
 end
 
